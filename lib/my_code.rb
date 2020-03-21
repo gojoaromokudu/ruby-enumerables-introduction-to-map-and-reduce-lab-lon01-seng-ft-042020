@@ -73,9 +73,7 @@ end
     if source_array.include?(true)
     pp true
   end
-  #  index += 1 
-  #end
-  
+ 
   
   # index = 0 
   # new_array = []
