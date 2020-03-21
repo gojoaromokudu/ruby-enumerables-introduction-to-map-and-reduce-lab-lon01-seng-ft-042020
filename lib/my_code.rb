@@ -67,6 +67,13 @@ end
  end
  
  def reduce_to_any_true (source_array)
+  index = 0 
+  while index < source_array.length do 
+    pp source_array[index]
+    index += 1 
+  end
+  
+  
   # index = 0 
   # new_array = []
   # while index < source_array.length do
