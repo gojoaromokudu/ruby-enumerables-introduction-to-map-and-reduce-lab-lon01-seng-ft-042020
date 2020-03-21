@@ -71,17 +71,6 @@ if new_array.include?(false)
 else
   true
 end
-
-# index = 0 
-# pp source_array
-#   while index < source_array.length do 
-#     if source_array[index] == !false
-#       return true
-#     else 
-#       return false
-#     end
-#     index += 1 
-#   end
  end
  
  def reduce_to_any_true (source_array)
