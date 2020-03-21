@@ -54,16 +54,28 @@ def reduce_to_total (source_array, starting_point = 0)
 end
 
  def reduce_to_all_true (source_array)
- index = 0 
- pp source_array
-  while index < source_array.length do 
-    if source_array[index] == !false
-       return true
-    else 
-      return false
-    end
-    index += 1 
+index = 0
+new_array =[]
+while index < source_array.length do 
+  if source_array 
+    new_array << true 
+  else 
+    new_array << false 
   end
+  index += 1 
+end
+pp new_array
+
+# index = 0 
+# pp source_array
+#   while index < source_array.length do 
+#     if source_array[index] == !false
+#       return true
+#     else 
+#       return false
+#     end
+#     index += 1 
+#   end
  end
  
  def reduce_to_any_true (source_array)
