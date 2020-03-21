@@ -66,6 +66,10 @@ while index < source_array.length do
 end
 pp new_array
 
+if new_array.include?(false)
+  false
+end
+
 # index = 0 
 # pp source_array
 #   while index < source_array.length do 
