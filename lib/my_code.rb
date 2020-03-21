@@ -70,7 +70,7 @@ end
   pp source_array
   index = 0 
   while index < source_array.length do 
-    if source_array[index] == true
+    if source_array.include?
     pp true
   end
     index += 1 
