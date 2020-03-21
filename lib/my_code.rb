@@ -70,7 +70,7 @@ end
   pp source_array
   index = 0 
   while index < source_array.length do 
-    pp source_array[index]
+    true
     index += 1 
   end
   
