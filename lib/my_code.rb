@@ -68,6 +68,8 @@ pp new_array
 
 if new_array.include?(false)
   false
+else
+  true
 end
 
 # index = 0 
