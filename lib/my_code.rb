@@ -67,19 +67,19 @@ end
  end
  
  def reduce_to_any_true (source_array)
-  index = 0 
-  new_array = []
-  while index < source_array.length do
-    if source_array[index]
-    new_array << true
-    else
-    new_array << false
-    index += 1
-    end
-  end
-  
-  pp new_array
-  # if new_array.include?(false)
-  # false
+  # index = 0 
+  # new_array = []
+  # while index < source_array.length do
+  #   if source_array[index]
+  #   new_array << true
+  #   else
+  #   new_array << false
+  #   index += 1
+  #   end
   # end
+  
+  # pp new_array
+  # # if new_array.include?(false)
+  # # false
+  # # end
  end
