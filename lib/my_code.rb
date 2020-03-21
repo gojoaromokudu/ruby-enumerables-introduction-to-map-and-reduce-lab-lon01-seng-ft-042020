@@ -70,9 +70,9 @@ end
   pp source_array
   
     if source_array.include?(true)
-    pp true
+     true
   else
-    pp false
+    false
   end
  
   
