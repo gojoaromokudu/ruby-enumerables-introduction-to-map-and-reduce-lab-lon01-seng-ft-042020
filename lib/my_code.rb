@@ -57,7 +57,7 @@ end
 index = 0
 new_array =[]
 while index < source_array.length do 
-  if source_array 
+  if source_array[index] 
     new_array << true 
   else 
     new_array << false 
