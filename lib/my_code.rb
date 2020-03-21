@@ -67,10 +67,8 @@ end
  end
  
  def reduce_to_any_true (source_array)
-  pp source_array
-  
-    if source_array.include?(true)
-     true
+  if source_array.include?(true)
+    true
   else
     false
   end
