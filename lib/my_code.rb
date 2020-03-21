@@ -72,6 +72,7 @@ end
   while index < source_array.length do 
     if source_array[index] == true
     pp true
+  end
     index += 1 
   end
   
