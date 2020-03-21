@@ -69,12 +69,12 @@ end
  def reduce_to_any_true (source_array)
   pp source_array
   index = 0 
-  while index < source_array.length do 
-    if source_array.include?
+  #while index < source_array.length do 
+    if source_array.include?(true)
     pp true
   end
-    index += 1 
-  end
+  #  index += 1 
+  #end
   
   
   # index = 0 
